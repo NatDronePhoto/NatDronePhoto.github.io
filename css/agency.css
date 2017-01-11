@@ -35,7 +35,7 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #cccccc;
 }
 
 a:hover,
@@ -119,14 +119,14 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #fed136;
+    border-color: ##cccccc;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #cccccc;
 }
 
 .btn-xl:hover,
@@ -176,7 +176,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #F76F0E;
+    color: #cccccc;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -209,7 +209,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 900;
     letter-spacing: 1px;
-    color: #3F6A93;
+    color: #cccccc; 
 }
 
 .navbar-default .nav li a:hover,
@@ -221,7 +221,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #fed136;
+    background-color: #e6e6e6;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -262,11 +262,11 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-	padding-top:163px;
+	padding-top:250px;
     text-align: center;
-    color: #FF6825;
+    color: #ffffff;
     background-attachment: scroll;
-    background-image: url("https://cloud.githubusercontent.com/assets/9244754/5018581/9a98fd36-6ac0-11e4-8d22-7481e50b9cb1.jpg");
+    background-image: url(../img/Nat4.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -290,11 +290,11 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
-    font-weight: 700;
-    line-height: 50px;
+    font-weight: 300;
+    line-height: 100px;
 }
 
 @media(min-width:768px) {
@@ -314,13 +314,14 @@ header .intro-text .intro-heading {
     	float: center;
     }
 
-    header .intro-text .intro-heading {
+   /* header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
+		*/
     }
 }
 
@@ -733,11 +734,13 @@ footer span.copyright {
 }
 
 footer ul.quicklinks {
+	
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
+	
 }
 
 ul.social-buttons {
@@ -762,7 +765,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    background-color: #cccccc;
 }
 
 .btn:focus,
