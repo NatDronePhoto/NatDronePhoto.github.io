@@ -205,7 +205,8 @@ fieldset[disabled] .btn-xl.active {
 
 
 header {
-	padding-top:250px;
+	padding-top:350px;
+	margin-top:-100px;
     text-align: center;
     color: #ffffff;
     background-attachment: scroll;
@@ -273,16 +274,25 @@ section {
 }
 
 section h2.section-heading {
-    margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom:50px;
     font-size: 40px;
 }
 
 section h3.section-subheading {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin-top: 10px;	
     font-size: 25px;
     font-weight: 300;
 	color:#fff;
+}
+
+section h4.info{
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin-top:50px;
+	font-size: 25px;
+    font-weight: 300;
+	color:#fff;
+	text-transform:lowercase;
 }
 
 @media(min-width:768px) {
@@ -300,9 +310,8 @@ section h3.section-subheading {
 	background-size: cover;
 }
 
-
 #logo{
-	height: 200%;
+	height: 400%;
     margin-top: -10px;
     margin-right: 5px;
 }
