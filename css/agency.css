@@ -236,9 +236,11 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     /*text-transform: uppercase;*/
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	background:rgba(181,181,181,0.6);
     font-size: 50px;
     font-weight: 300;
     line-height: 100px;
+	color:#rgb(211,211,211);
 }
 
 @media(min-width:768px) {
@@ -253,7 +255,7 @@ header .intro-text .intro-heading {
         font-size: 40px;
         font-style: italic;
         line-height: 70px;
-        background-color: rgba(255, 189, 0, 0.69);
+        background-color: rgba(255,0,255 0.69);
         display: inline;
     	float: center;
     }
