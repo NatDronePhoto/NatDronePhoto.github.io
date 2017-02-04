@@ -297,6 +297,8 @@ section h4.info{
 	text-transform:lowercase;
 }
 
+
+
 @media(min-width:768px) {
     section {
         padding: 150px 0;
@@ -618,6 +620,59 @@ section h4.info{
 aside.clients img {
     margin: 50px auto;
 }
+.vc_row-fluid:before,
+.vc_row-fluid:after {
+  display: table;
+  content: "";
+}
+
+.vc_custom_1440410607297 {
+    margin-bottom: 30px !important;
+}
+
+.wpb_row, .wpb_content_element, ul.wpb_thumbnails-fluid > li, .last_toggle_el_margin, .wpb_button {
+    margin-bottom: 35px;
+}
+
+.vc_row-fluid [class*="vc_span"]:first-child {
+    margin-left: 0;
+}
+
+.vc_row-fluid .vc_span3, .wpb_teaser_grid.wpb_carousel .vc_span3 {
+    width: 23.125%;
+}
+.vc_row-fluid [class*="vc_span"] {
+    display: block;
+    min-height: 5px;      
+    box-sizing: border-box;
+    float: left;
+	margin-left: 2.5%;
+}
+
+.wpb_single_image.vc_align_center {
+    text-align: center;
+}
+
+.wpb_single_image .wpb_wrapper {
+    line-height: 0;
+}
+
+.vc_custom_heading {
+    margin-bottom: 35px;
+}  
+
+.section .wrapper {
+    padding: 0px 0px 0 0px;
+}
+.section_wrapper {
+    overflow: visible;
+}
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+
 section#about{
 	color: #fff;
 }
