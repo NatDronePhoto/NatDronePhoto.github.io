@@ -1641,7 +1641,7 @@ blockquote:after {
 #footer_coms ul {
 	display:none;
 }
-#top_bar, header, .header_bottom_nav {
+#top_bar, .header_bottom_nav {
 	display:none;
 }
 .footer_4_col .widget_wrap, .footer_3_col .widget_wrap, .footer_2_col .widget_wrap, .footer_1_col .widget_wrap {
